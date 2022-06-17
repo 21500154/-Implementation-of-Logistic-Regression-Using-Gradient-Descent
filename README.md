@@ -15,11 +15,11 @@ To write a program to implement the the Logistic Regression Using Gradient Desce
 5. Calculate the accuracy, confusion and classification report by importing the required modules from sklearn.
 ## Program:
 ```
-/*
 Program to implement the the Logistic Regression Using Gradient Descent.
 Developed by: DHARSHINI D.S 
 RegisterNumber: 212221230022 
-
+```
+```
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -61,7 +61,6 @@ for i,j in enumerate(np.unique(y_Set)):
   plt.ylabel('Estimated Salary')
   plt.legend()
   plt.show()
-*/
 ```
 
 ## Output:
